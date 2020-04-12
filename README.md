@@ -1,5 +1,6 @@
 ### How to move docker storage from home directory to other location 
 ======================
+
     Caution - These steps depend on your current /var/lib/docker being an actual directory (not a symlink to another location).
 
     1) Stop docker: service docker stop. Verify no docker process is running: ps aux | grep -i [d]ocker
